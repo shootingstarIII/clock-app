@@ -1,10 +1,10 @@
-import Hero from "./components/Hero";
+import HeroHeader from "./components/HeroHeader";
 
 const App = () => {
   return (
-    <div className="ss-container">
-      <Hero />
-    </div>
+    <>
+      <HeroHeader />
+    </>
   );
 };
 
